@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Rodrigo Sena de Oliveira - Portfólio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #005f73;
+            color: white;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            font-size: 2.5em;
+            margin: 0;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+        section {
+            margin-top: 40px;
+            text-align: center;
+        }
+        section h2 {
+            font-size: 2em;
+            margin-bottom: 20px;
+        }
+        .certifications {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 15px;
+        }
+        .certifications img {
+            width: 100px;
+            height: auto;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .certifications img:hover {
+            transform: scale(1.5);
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+        }
+        .contact {
+            margin-top: 40px;
+            text-align: center;
+        }
+        .contact a {
+            display: inline-block;
+            margin: 0 10px;
+            padding: 10px 20px;
+            background-color: #3a86ff;
+            color: white;
+            text-decoration: none;
+            font-weight: 700;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .contact a:hover {
+            background-color: #005f73;
+        }
+        footer {
+            margin-top: auto;
+            text-align: center;
+            font-size: 0.9em;
+            color: #555;
+            padding: 20px 0;
+        }
+        .social-links {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+        .social-links a {
+            color: #3a86ff;
+            text-decoration: none;
+            font-weight: 700;
+        }
+        .social-links a:hover {
+            color: #005f73;
+        }
+        .soon {
+            margin-top: 30px;
+            color: #333;
+            font-weight: bold;
+        }
+        .soon img {
+            width: 90px;
+            height: auto;
+            margin-top: 10px;
+        }
+        .soon p {
+            color: #f95d6a;
+            font-size: 1.1em;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Rodrigo Sena de Oliveira - Portfólio</h1>
+    </header>
+    
+    <section>
+        <h2>Certificações</h2>
+        <div class="certifications">
+            <img src="aws-certified-cloud-practitioner.png" alt="AWS Certified Cloud Practitioner">
+            <img src="aws-certified-solutions-architect-associate.png" alt="AWS Certified Solutions Architect Associate">
+            <img src="microsoft-certified-azure-ai-fundamentals.png" alt="Microsoft Certified Azure AI Fundamentals">
+            <img src="microsoft-certified-azure-data-fundamentals.png" alt="Microsoft Certified Azure Data Fundamentals">
+            <img src="microsoft-certified-azure-fundamentals.png" alt="Microsoft Certified Azure Fundamentals">
+        </div>
+    </section>
+
+
+    <section class="contact">
+        <h2>Entre em Contato</h2>
+        <a href="https://www.linkedin.com/in/rodrigo-sena-de-oliveira/" target="_blank">LinkedIn</a>
+        <a href="https://github.com/rodrigosenna" target="_blank">GitHub</a>
+        <a href="mailto:rodrigo.sonic@gmail.com">E-mail</a>
+    </section>
+    
+    <footer>
+        <p>Rodrigo Sena de Oliveira &copy; 2024 - Todos os direitos reservados</p>
+    </footer>
+</body>
+</html>
